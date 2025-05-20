@@ -1,5 +1,5 @@
 # Raspberrypi_setup_python
-## Configure raspberry pi after installtion of sd card using pi imager
+## Configure raspberry pi after installation of sd card using pi imager
 
 This repository is intended for the initial setup and configuration of the Raspberry Pi (Raspberry Pi 5 used here), covering the preliminary steps from OS installation to the first clean boot, including initial system updates and upgrades.
 
@@ -43,4 +43,31 @@ sudo apt install python3 idle3
 
 ### Depending on the requirements, additional packages may be needed. These can be installed on the go using the `pip` command, the `apt install` command, or sometimes by using pre-built `.whl` files.
 
+eg: 
+
+pip install numpy pandas matplotlib scikit-learn
+
+or
+
+sudo apt install python3-numpy python3-scipy python3-pandas
+
+
 ### Some additional Python packages that may be useful for general work on a Raspberry Pi—especially for implementing machine learning or conducting scientific analysis—include the following:
+
+
+
+### Testing Your Setup
+
+#### You can test your setup with a simple script:
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+plt.plot(x, y)
+plt.title("Simple Sine Wave")
+plt.show()
+
+

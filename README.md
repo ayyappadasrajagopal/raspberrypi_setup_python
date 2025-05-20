@@ -5,7 +5,7 @@ This repository is intended for the initial setup and configuration of the Raspb
 
 # Steps to start with
 
-sudo apt update\\
-sudo apt upgrade
-sudo apt dist-upgrade 
-sudo apt install python3 idle3
+-sudo apt update
+-sudo apt upgrade
+-sudo apt dist-upgrade 
+-sudo apt install python3 idle3

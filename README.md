@@ -64,7 +64,7 @@ y = np.sin(x)
 plt.plot(x, y)
 plt.title("Simple Sine Wave")
 plt.show()
- 
+ ``` 
 ---
 #### you can run it with command python3 follwed by the name of file (eg: abc.py)
 

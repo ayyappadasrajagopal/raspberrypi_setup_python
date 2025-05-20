@@ -26,10 +26,10 @@ This repository is intended for the initial setup and configuration of the Raspb
 2. Change the default password.
 3. Connect to Wi-Fi.
 4. Run system updates:
-- sudo apt update
-- sudo apt upgrade
-- sudo apt dist-upgrade 
-- sudo apt install python3 idle3
+> - sudo apt update
+> - sudo apt upgrade
+> - sudo apt dist-upgrade 
+> - sudo apt install python3 idle3
 
 
 ---

@@ -124,10 +124,10 @@ plt.show()
 ### 📦 Useful Python Packages (pip install format)
 🧮 Scientific Computing & Math
 
-pip install numpy
-pip install scipy
-pip install sympy
-pip install mpmath
+- pip install numpy
+- pip install scipy
+- pip install sympy
+- pip install mpmath
 
 📊 Data Analysis & Visualization
 

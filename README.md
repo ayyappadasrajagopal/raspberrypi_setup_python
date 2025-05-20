@@ -5,6 +5,30 @@ This repository is intended for the initial setup and configuration of the Raspb
 
 ## Steps to start with
 
+### 1. Hardware Requirements
+
+- Raspberry Pi 5
+- SD card (32GB or more recommended)
+- Power supply (official or 5V 3A USB-C)
+- HDMI monitor, keyboard, and mouse
+- Internet connection (Wi-Fi or Ethernet)
+
+### 2. OS Installation
+
+- Download Raspberry Pi OS from the [official website](https://www.raspberrypi.com/software/).
+- Use **Raspberry Pi Imager** to flash the OS to your SD card.
+- Insert the SD card into the Pi and boot.
+
+---
+
+## ⚙️ First Boot Configuration
+
+1. Set up the system locale, timezone, and keyboard layout.
+2. Change the default password.
+3. Connect to Wi-Fi.
+4. Run system updates:
+
+
 sudo apt update
 
 

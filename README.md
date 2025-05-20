@@ -41,6 +41,10 @@ sudo apt dist-upgrade
 sudo apt install python3 idle3
 
 
+---
+
+## For Extended Reading
+
 ### Depending on the requirements, additional packages may be needed. These can be installed on the go using the `pip` command, the `apt install` command, or sometimes by using pre-built `.whl` files.
 
 eg: 

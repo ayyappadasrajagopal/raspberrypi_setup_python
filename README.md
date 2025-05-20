@@ -13,6 +13,7 @@ This repository is intended for the initial setup and configuration of the Raspb
 - HDMI monitor, keyboard, and mouse
 - Internet connection (Wi-Fi or Ethernet)
 
+
 ### 2. OS Installation
 
 - Download Raspberry Pi OS from the [official website](https://www.raspberrypi.com/software/).
@@ -38,8 +39,6 @@ This repository is intended for the initial setup and configuration of the Raspb
 
 #### Depending on the requirements, additional packages may be needed. These can be installed on the go using the `pip` command, the `apt install` command, or sometimes by using pre-built `.whl` files.
 
-eg: 
-
 pip install numpy pandas matplotlib scikit-learn
 
 or
@@ -48,7 +47,6 @@ sudo apt install python3-numpy python3-scipy python3-pandas
 
 
 ### Some additional Python packages that may be useful for general work on a Raspberry Pi—especially for implementing machine learning or conducting scientific analysis—include the following:
-
 
 
 ### Testing Your Setup
@@ -69,7 +67,7 @@ plt.show()
 #### you can run it with command python3 follwed by the name of file (eg: abc.py)
 
 
-## Some of the weel knwon pyhton packages are listed below:
+## Some of the well known pyhton packages are listed below:
 🧰 Categories & Description
 🧮 Scientific Computing & Math
 

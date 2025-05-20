@@ -19,9 +19,8 @@ This repository is intended for the initial setup and configuration of the Raspb
 - Use **Raspberry Pi Imager** to flash the OS to your SD card.
 - Insert the SD card into the Pi and boot.
 
----
 
-## ⚙️ First Boot Configuration
+###  3. First Boot Configuration
 
 1. Set up the system locale, timezone, and keyboard layout.
 2. Change the default password.
@@ -43,7 +42,7 @@ sudo apt install python3 idle3
 
 ---
 
-## For Extended Reading
+## ⚙️ For Extended Reading
 
 ### Depending on the requirements, additional packages may be needed. These can be installed on the go using the `pip` command, the `apt install` command, or sometimes by using pre-built `.whl` files.
 

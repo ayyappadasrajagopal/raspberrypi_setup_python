@@ -6,5 +6,5 @@
 
 sudo apt update
 sudo apt upgrade
-sudo apt 
+sudo apt dist-upgrade 
 sudo apt install python3 idle3

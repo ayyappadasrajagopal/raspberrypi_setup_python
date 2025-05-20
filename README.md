@@ -70,4 +70,52 @@ plt.plot(x, y)
 plt.title("Simple Sine Wave")
 plt.show()
 
+#### you can run it with command python3 follwed by the name of file (eg: abc.py)
+
+
+## Some of the weel knwon pyhton packages are listed below:
+🧰 Categories & Description
+🧮 Scientific Computing & Math
+
+    numpy – Fundamental package for numerical operations.
+
+    scipy – Scientific computing tools built on top of NumPy.
+
+    sympy – Symbolic mathematics (algebra, calculus, etc.).
+
+📊 Data Analysis & Visualization
+
+    pandas – Data structures and analysis tools.
+
+    matplotlib – Plotting and visualization.
+
+    seaborn – Statistical data visualization built on top of matplotlib.
+
+🤖 Machine Learning & AI
+
+    scikit-learn – Classical machine learning algorithms.
+
+    tensorflow-lite – Lightweight version of TensorFlow for edge devices.
+
+    keras – High-level neural network API (can work with TFLite backend).
+
+📷 Computer Vision & Image Processing
+
+    opencv-python – Computer vision library.
+
+    pillow – Image processing support (e.g., for loading/saving images).
+
+🖥️ Development & Interactive Tools
+
+    jupyterlab – Web-based IDE for notebooks.
+
+    notebook – Classic Jupyter Notebook interface.
+
+⚙️ Raspberry Pi Hardware Interface
+
+    RPi.GPIO – Control GPIO pins.
+
+    gpiozero – Simplified interface to GPIO.
+
+    pigpio – Advanced GPIO control including PWM, I2C, SPI, etc.
 

@@ -102,20 +102,13 @@ plt.show()
     pillow – Image processing support (e.g., for loading/saving images).
 
 🖥️ Development & Interactive Tools
-
-    jupyterlab – Web-based IDE for notebooks.
-
-    notebook – Classic Jupyter Notebook interface.
+   - jupyterlab – Web-based IDE for notebooks.
+   - notebook – Classic Jupyter Notebook interface.
 
 ⚙️ Raspberry Pi Hardware Interface
-
-    RPi.GPIO – Control GPIO pins.
-
-    gpiozero – Simplified interface to GPIO.
-
-    pigpio – Advanced GPIO control including PWM, I2C, SPI, etc.
-
-
+   - RPi.GPIO – Control GPIO pins.
+   - gpiozero – Simplified interface to GPIO.
+   - pigpio – Advanced GPIO control including PWM, I2C, SPI, etc.
 
 ### 📦 Useful Python Packages (pip install format)
 🧮 Scientific Computing & Math
@@ -128,59 +121,59 @@ plt.show()
 📊 Data Analysis & Visualization
 
 - pip install pandas
--pip install matplotlib
--pip install seaborn
--pip install plotly
--pip install tabulate
+- pip install matplotlib
+- pip install seaborn
+- pip install plotly
+- pip install tabulate
 
 🤖 Machine Learning & Deep Learning
 
--pip install scikit-learn
--pip install xgboost
--pip install tensorflow
--pip install keras
--pip install tensorflow-lite
+- pip install scikit-learn
+- pip install xgboost
+- pip install tensorflow
+- pip install keras
+- pip install tensorflow-lite
 
 🧪 Interactive Development & Jupyter
 
--pip install jupyterlab
--pip install notebook
--pip install ipywidgets
+- pip install jupyterlab
+- pip install notebook
+- pip install ipywidgets
 
 🖼️ Computer Vision & Image Processing
 
--pip install opencv-python
--pip install pillow
--pip install imageio
--pip install scikit-image
+- pip install opencv-python
+- pip install pillow
+- pip install imageio
+- pip install scikit-image
 
 🧠 AI/ML Toolkits for Edge Devices
 
--pip install tflite-runtime
--pip install onnxruntime
+- pip install tflite-runtime
+- pip install onnxruntime
 
 🐍 Raspberry Pi Hardware Interfacing
 
--pip install RPi.GPIO
--pip install gpiozero
--pip install pigpio
--pip install spidev
--pip install smbus2
+- pip install RPi.GPIO
+- pip install gpiozero
+- pip install pigpio
+- pip install spidev
+- pip install smbus2
 
 🌐 Networking & IoT
 
--pip install paho-mqtt
--pip install requests
--pip install flask
--pip install socketio
+- pip install paho-mqtt
+- pip install requests
+- pip install flask
+- pip install socketio
 
 📦 Utilities & System Tools
 
--pip install psutil
--pip install schedule
--pip install rich
--pip install tqdm
--pip install loguru
+- pip install psutil
+- pip install schedule
+- pip install rich
+- pip install tqdm
+- pip install loguru
 
 🔐 Security & Encryption (Optional)
 

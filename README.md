@@ -127,74 +127,74 @@ plt.show()
 
 📊 Data Analysis & Visualization
 
-pip install pandas
-pip install matplotlib
-pip install seaborn
-pip install plotly
-pip install tabulate
+- pip install pandas
+-pip install matplotlib
+-pip install seaborn
+-pip install plotly
+-pip install tabulate
 
 🤖 Machine Learning & Deep Learning
 
-pip install scikit-learn
-pip install xgboost
-pip install tensorflow
-pip install keras
-pip install tensorflow-lite
+-pip install scikit-learn
+-pip install xgboost
+-pip install tensorflow
+-pip install keras
+-pip install tensorflow-lite
 
 🧪 Interactive Development & Jupyter
 
-pip install jupyterlab
-pip install notebook
-pip install ipywidgets
+-pip install jupyterlab
+-pip install notebook
+-pip install ipywidgets
 
 🖼️ Computer Vision & Image Processing
 
-pip install opencv-python
-pip install pillow
-pip install imageio
-pip install scikit-image
+-pip install opencv-python
+-pip install pillow
+-pip install imageio
+-pip install scikit-image
 
 🧠 AI/ML Toolkits for Edge Devices
 
-pip install tflite-runtime
-pip install onnxruntime
+-pip install tflite-runtime
+-pip install onnxruntime
 
 🐍 Raspberry Pi Hardware Interfacing
 
-pip install RPi.GPIO
-pip install gpiozero
-pip install pigpio
-pip install spidev
-pip install smbus2
+-pip install RPi.GPIO
+-pip install gpiozero
+-pip install pigpio
+-pip install spidev
+-pip install smbus2
 
 🌐 Networking & IoT
 
-pip install paho-mqtt
-pip install requests
-pip install flask
-pip install socketio
+-pip install paho-mqtt
+-pip install requests
+-pip install flask
+-pip install socketio
 
 📦 Utilities & System Tools
 
-pip install psutil
-pip install schedule
-pip install rich
-pip install tqdm
-pip install loguru
+-pip install psutil
+-pip install schedule
+-pip install rich
+-pip install tqdm
+-pip install loguru
 
 🔐 Security & Encryption (Optional)
 
-pip install cryptography
-pip install pyjwt
+- pip install cryptography
+- pip install pyjwt
 
 ⚙️ Miscellaneous Useful Packages
 
-pip install pyserial          # Serial communication
-pip install pyfirmata         # Arduino interface
-pip install pyttsx3           # Text-to-speech
-pip install speechrecognition # Speech recognition
-pip install pynput            # Keyboard/mouse control
-pip install pyautogui         # GUI automation
+- pip install pyserial          # Serial communication
+- pip install pyfirmata         # Arduino interface
+- pip install pyttsx3           # Text-to-speech
+- pip install speechrecognition # Speech recognition
+- pip install pynput            # Keyboard/mouse control
+- pip install pyautogui         # GUI automation
 
 📝 Optional: One-Liner Install for Core Scientific Stack
 

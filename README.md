@@ -17,3 +17,6 @@ sudo apt dist-upgrade
 sudo apt install python3 idle3
 
 
+# Depending on the requirements, additional packages may be needed. These can be installed on the go using the `pip` command, the `apt install` command, or sometimes by using pre-built `.whl` files.
+
+# Some additional Python packages that may be useful for general work on a Raspberry Pi—especially for implementing machine learning or conducting scientific analysis—include the following:

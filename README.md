@@ -55,8 +55,8 @@ sudo apt install python3-numpy python3-scipy python3-pandas
 
 #### You can test your setup with a simple script:
 
-<pre> import numpy as np
-import matplotlib.pyplot as plt```
+```import numpy as np
+import matplotlib.pyplot as plt
 
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
@@ -65,7 +65,7 @@ plt.plot(x, y)
 plt.title("Simple Sine Wave")
 plt.show()
  
-<\pre>
+---
 #### you can run it with command python3 follwed by the name of file (eg: abc.py)
 
 

@@ -36,7 +36,7 @@ This repository is intended for the initial setup and configuration of the Raspb
 
 ## ⚙️ For Extended Reading
 
-### Depending on the requirements, additional packages may be needed. These can be installed on the go using the `pip` command, the `apt install` command, or sometimes by using pre-built `.whl` files.
+#### Depending on the requirements, additional packages may be needed. These can be installed on the go using the `pip` command, the `apt install` command, or sometimes by using pre-built `.whl` files.
 
 eg: 
 

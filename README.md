@@ -77,7 +77,11 @@ This repository is intended for the initial setup and configuration of the Raspb
  - deactivate
 
 
-<span style="color:red">This won't work on GitHub</span>
+<span style="color:red">This won't work on GitHub</span> 
+🟢 Active  
+🔴 Inactive  
+🟡 Warning  
+🔵 Info
 
 ---
 ## ⚙️ For Extended Reading

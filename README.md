@@ -68,7 +68,6 @@ This repository is intended for the initial setup and configuration of the Raspb
 8. Check Where Python Packages Are Installed
 - python3 -m site
 
-
 9. Virtual environment
 - Create virtual environment
  - python3 -m venv myenv
@@ -76,6 +75,9 @@ This repository is intended for the initial setup and configuration of the Raspb
  - source myenv/bin/activate
 - Deactivate it:
  - deactivate
+
+
+<span style="color:red">This won't work on GitHub</span>
 
 ---
 ## ⚙️ For Extended Reading

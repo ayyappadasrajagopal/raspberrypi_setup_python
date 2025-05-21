@@ -35,22 +35,30 @@ This repository is intended for the initial setup and configuration of the Raspb
 ## 2. SBasic help codes to interact with python in raspberry pi (or in general with python) (in terminal or in python console)
 ✅ Add a shortcut to the Documents folder on the Desktop
 - ln -s /home/pi/Documents /home/pi/Desktop/Documents
+
 ✅ Check Python version:
 - python --version (or python3 --version if python2 and python3 are installed)
 - To go to python terminal from command terminal
 - python3 (to exit type exit())
+
 ✅ Run a Python script:
 - python3 your_script.py (your_script.py is the file name with .py extension)
+
 ✅ Check pip version:
 - pip --version
+
 ✅ List installed packages:
 - pip list
+
 ✅ Upgrade pip:
 - python3 -m pip install --upgrade pip
+
 ✅ Location of Python executable:
 - which python3
+
 ✅ Check Where Python Packages Are Installed
 - python3 -m site
+
 ✅ Virtual environment
 - Create virtual environment
  - python3 -m venv myenv

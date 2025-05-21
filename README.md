@@ -31,6 +31,11 @@ This repository is intended for the initial setup and configuration of the Raspb
    - sudo apt upgrade
    - sudo apt dist-upgrade 
    - sudo apt install python3 idle3
+   - [website](https://pramuditharidma.medium.com/how-to-install-python-idle-on-raspberry-pi-9307e6fec108)
+
+- Install VS Code in raspberry pi 5
+    - sudo apt install code 
+    - [website](https://code.visualstudio.com/docs/setup/raspberry-pi)
 
 
 ---

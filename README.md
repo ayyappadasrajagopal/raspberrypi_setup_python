@@ -237,3 +237,12 @@ pip install numpy scipy pandas matplotlib seaborn scikit-learn sympy jupyterlab
 
 ## 4. Some helpful websites
 https://packaging.python.org/en/latest/tutorials/installing-packages/
+
+
+1. Publishing a Python Package from GitHub to PyPI in 2024
+- https://medium.com/@blackary/publishing-a-python-package-from-github-to-pypi-in-2024-a6fb8635d45d
+
+2. Static code analyser for Python3
+- Pylint is a static code analyser for Python 2 or 3.
+- pip install pylint
+- https://pylint.readthedocs.io/en/latest/

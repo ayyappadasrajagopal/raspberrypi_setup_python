@@ -1,4 +1,10 @@
+<!-- This is a hidden comment 
+Maintained by Ayyappadas R
+-->
+
+
 # Raspberrypi_setup_python
+Created and Maintained by Ayyappadas R
 ## Configure raspberry pi after installation of os image to sd card using pi imager
 
 This repository is intended for the initial setup and configuration of the Raspberry Pi (Raspberry Pi 5 used here), covering the preliminary steps from OS installation to the first clean boot, including initial system updates and upgrades.
@@ -76,12 +82,13 @@ This repository is intended for the initial setup and configuration of the Raspb
 - Deactivate it:
  - deactivate
 
-
+<!-- This is a hidden comment 
 <span style="color:red">This won't work on GitHub</span> 
 🟢 Active  
 🔴 Inactive  
 🟡 Warning  
 🔵 Info
+-->
 
 ---
 ## ⚙️ For Extended Reading

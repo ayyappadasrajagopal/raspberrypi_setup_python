@@ -231,3 +231,9 @@ plt.show()
 📝 Optional: One-Liner Install for Core Scientific Stack
 
 pip install numpy scipy pandas matplotlib seaborn scikit-learn sympy jupyterlab
+
+
+
+
+## 4. Some helpful websites
+https://packaging.python.org/en/latest/tutorials/installing-packages/

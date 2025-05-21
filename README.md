@@ -32,7 +32,7 @@ This repository is intended for the initial setup and configuration of the Raspb
     - [website](https://code.visualstudio.com/docs/setup/raspberry-pi)
 
 ---
-## 2. SBasic help codes to interact with python in raspberry pi (or in general with python) (in terminal or in python console)
+## 2. Basic help codes to interact with python in raspberry pi (or in general with python) (in terminal or in python console)
 ✅ Add a shortcut to the Documents folder on the Desktop
 - ln -s /home/pi/Documents /home/pi/Desktop/Documents
 

@@ -3,7 +3,7 @@
 
 This repository is intended for the initial setup and configuration of the Raspberry Pi (Raspberry Pi 5 used here), covering the preliminary steps from OS installation to the first clean boot, including initial system updates and upgrades.
 
-## Steps to start with
+## 1. Steps to start with
 
 ### 1. Hardware Requirements
 
@@ -39,7 +39,45 @@ This repository is intended for the initial setup and configuration of the Raspb
 
 
 ---
+## 2. SBasic help codes to interact with python in raspberry pi (or in general with python) (in terminal or in python console)
 
+1. Add a shortcut to the Documents folder on the Desktop
+- ln -s /home/pi/Documents /home/pi/Desktop/Documents
+
+2. ✅ Check Python version:
+- python --version (or python3 --version if python2 and python3 are installed)
+
+- To go to python terminal from command terminal
+- python3 (to exit type exit())
+
+3. ✅ Run a Python script:
+- python3 your_script.py (your_script.py is the file name with .py extension)
+
+4. Check pip version:
+- pip --version
+
+5. List installed packages:
+- pip list
+
+6. Upgrade pip:
+- python3 -m pip install --upgrade pip
+
+7. Location of Python executable:
+- which python3
+
+8. Check Where Python Packages Are Installed
+- python3 -m site
+
+
+9. Virtual environment
+- Create virtual environment
+ - python3 -m venv myenv
+- Activate it:
+ - source myenv/bin/activate
+- Deactivate it:
+ - deactivate
+
+---
 ## ⚙️ For Extended Reading
 
 #### Depending on the requirements, additional packages may be needed. These can be installed on the go using the `pip` command, the `apt install` command, or sometimes by using pre-built `.whl` files.

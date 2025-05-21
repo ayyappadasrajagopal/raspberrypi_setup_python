@@ -1,34 +1,23 @@
-<!-- This is a hidden comment 
-Maintained by Ayyappadas R
--->
-
-
+<!-- Maintained by Ayyappadas R-->
 # Raspberrypi_setup_python
 Created and Maintained by Ayyappadas R
 ## Configure raspberry pi after installation of os image to sd card using pi imager
-
 This repository is intended for the initial setup and configuration of the Raspberry Pi (Raspberry Pi 5 used here), covering the preliminary steps from OS installation to the first clean boot, including initial system updates and upgrades.
 
 ## 1. Steps to start with
-
 ### 1. Hardware Requirements
-
 - Raspberry Pi 5
 - SD card (32GB or more recommended)
 - Power supply (official or 5V 3A USB-C)
 - HDMI monitor, keyboard, and mouse
 - Internet connection (Wi-Fi or Ethernet)
 
-
 ### 2. OS Installation
-
 - Download Raspberry Pi OS from the [official website](https://www.raspberrypi.com/software/).
 - Use **Raspberry Pi Imager** to flash the OS to your SD card.
 - Insert the SD card into the Pi and boot.
 
-
 ###  3. First Boot Configuration
-
 1. Set up the system locale, timezone, and keyboard layout.
 2. Change the default password.
 3. Connect to Wi-Fi.
@@ -38,43 +27,31 @@ This repository is intended for the initial setup and configuration of the Raspb
    - sudo apt dist-upgrade 
    - sudo apt install python3 idle3
    - [website](https://pramuditharidma.medium.com/how-to-install-python-idle-on-raspberry-pi-9307e6fec108)
-
 - Install VS Code in raspberry pi 5
     - sudo apt install code 
     - [website](https://code.visualstudio.com/docs/setup/raspberry-pi)
 
-
 ---
 ## 2. SBasic help codes to interact with python in raspberry pi (or in general with python) (in terminal or in python console)
-
-1. Add a shortcut to the Documents folder on the Desktop
+✅ Add a shortcut to the Documents folder on the Desktop
 - ln -s /home/pi/Documents /home/pi/Desktop/Documents
-
-2. ✅ Check Python version:
+✅ Check Python version:
 - python --version (or python3 --version if python2 and python3 are installed)
-
 - To go to python terminal from command terminal
 - python3 (to exit type exit())
-
-3. ✅ Run a Python script:
+✅ Run a Python script:
 - python3 your_script.py (your_script.py is the file name with .py extension)
-
-4. Check pip version:
+✅ Check pip version:
 - pip --version
-
-5. List installed packages:
+✅ List installed packages:
 - pip list
-
-6. Upgrade pip:
+✅ Upgrade pip:
 - python3 -m pip install --upgrade pip
-
-7. Location of Python executable:
+✅ Location of Python executable:
 - which python3
-
-8. Check Where Python Packages Are Installed
+✅ Check Where Python Packages Are Installed
 - python3 -m site
-
-9. Virtual environment
+✅ Virtual environment
 - Create virtual environment
  - python3 -m venv myenv
 - Activate it:

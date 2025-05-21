@@ -12,6 +12,9 @@ This repository is intended for the initial setup and configuration of the Raspb
 - HDMI monitor, keyboard, and mouse
 - Internet connection (Wi-Fi or Ethernet)
 
+- Raspberry pi pinout 
+![Figure](GPIO_diagram.jpg)
+
 ### 2. OS Installation
 - Download Raspberry Pi OS from the [official website](https://www.raspberrypi.com/software/).
 - Use **Raspberry Pi Imager** to flash the OS to your SD card.
@@ -231,7 +234,6 @@ plt.show()
 📝 Optional: One-Liner Install for Core Scientific Stack
 
 pip install numpy scipy pandas matplotlib seaborn scikit-learn sympy jupyterlab
-
 
 
 

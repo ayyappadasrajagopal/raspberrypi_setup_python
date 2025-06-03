@@ -248,3 +248,81 @@ https://packaging.python.org/en/latest/tutorials/installing-packages/
 - Pylint is a static code analyser for Python 2 or 3.
 - pip install pylint
 - https://pylint.readthedocs.io/en/latest/
+
+
+## Learn python class and definition
+
+Let's walk through a clean example that shows:
+
+    One file defines a class and a function
+
+    Another file contains the main() function and imports the first file
+
+    main() then calls both the imported function and class methods
+
+🧾 File Structure
+
+We'll use two Python files:
+
+project/
+├── utils.py         # Contains a class and a function
+└── main_program.py  # Contains main(), imports from utils.py
+
+📄 1. utils.py – defines reusable code
+
+# utils.py
+
+class Robot:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print(f"Hello! I am robot {self.name}.")
+
+def greet_user(username):
+    print(f"Welcome, {username}!")
+
+📄 2. main_program.py – imports and uses the code
+
+# main_program.py
+
+from utils import Robot, greet_user  # importing from utils.py
+
+def main():
+    # Call imported function
+    greet_user("Ayyappadas")
+
+    # Create object from imported class
+    r1 = Robot("EKAM-1")
+    r1.speak()
+
+if __name__ == "__main__":
+    main()
+
+▶️ Running the Code
+
+Run main_program.py:
+
+$ python main_program.py
+
+✅ Output:
+
+Welcome, Ayyappadas!
+Hello! I am robot EKAM-1.
+
+🔍 What's Happening
+Component	Description
+utils.py	A module containing reusable code (a class and a function)
+main_program.py	The main driver script
+from utils import ...	Brings in code from another file
+if __name__ == "__main__"	Ensures main() runs only when file is executed directly
+Robot and greet_user	Called inside main() after being imported
+📌 Key Concepts Demonstrated
+
+    Module import from another file
+
+    Using class and function across files
+
+    Structured main() entry point
+
+    Reusability and modular programming
